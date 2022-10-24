@@ -1,0 +1,24 @@
+{
+  "name": "baito_web",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [
+    "website"
+  ],
+  "license": "",
+  "author": "",
+  "scripts": {
+    "build": "parcel build src/*.html && cp src/*.txt dist/ && cp -r src/.well-known dist",
+    "dev": "parcel src/*.html --open",
+    "start": "npm run build && npm run dev",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.7.0",
+    "@parcel/transformer-webmanifest": "^2.7.0",
+    "parcel": "2.7.0"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  }
+}
