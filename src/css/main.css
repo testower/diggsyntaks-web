@@ -295,6 +295,30 @@ body {
   font-variant: normal;
 }
 
+.icon {
+  width: 40px;
+  height: 40px;
+  background-color: #ccc;
+  display: block;
+  margin-left: 10px;
+}
+
+.icon-pdf {
+  -webkit-mask: url("../img/icons/file-pdf-solid.svg") no-repeat center;
+  mask: url("../img/icons/file-pdf-solid.svg") no-repeat center;
+}
+.icon-github {
+  -webkit-mask:url("../img/icons/github.svg") no-repeat center;
+  mask: url("../img/icons/github.svg") no-repeat center;
+}
+.icon-linkedin {
+  -webkit-mask: url("../img/icons/linkedin.svg") no-repeat center;
+  mask: url("../img/icons/linkedin.svg") no-repeat center;
+}
+.icon-stack-overflow {
+  -webkit-mask: url("../img/icons/stack-overflow.svg") no-repeat center;
+  mask: url("../img/icons/stack-overflow.svg") no-repeat center;
+}
 
 h1 {
   font-family: 'Raleway', sans-serif;
