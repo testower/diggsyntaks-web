@@ -268,11 +268,33 @@ body {
   height: 100%;
   background-color: #181a1b;
   color: #e8e6e3;
+  -webkit-font-smoothing: antialiased;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("../font/raleway-thin.woff") format("woff");
+  font-style: normal;
+  font-weight: 100;
+  font-variant: normal;
 }
 @font-face {
   font-family: "Raleway";
-  src: url("../font/Raleway-VariableFont_wght.ttf?");
+  src: url("../font/raleway-light.woff") format("woff");
+  font-style: normal;
+  font-weight: 200;
+  font-variant: normal;
 }
+@font-face {
+  font-family: "Raleway";
+  src: url("../font/raleway-regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-variant: normal;
+}
+
 
 h1 {
   font-family: 'Raleway', sans-serif;
