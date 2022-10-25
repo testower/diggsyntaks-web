@@ -361,6 +361,7 @@ header {
   width: 80%;
   margin: 0 auto 100px;
   text-align: center;
+  min-height: 100%;
 }
 
 .skill {

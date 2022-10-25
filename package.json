@@ -8,7 +8,7 @@
   "license": "",
   "author": "",
   "scripts": {
-    "build": "parcel build src/*.html && cp src/*.txt dist/ && cp -r src/.well-known dist",
+    "build": "rm -rf dist/ && parcel build src/*.html && cp src/*.txt dist/ && cp -r src/.well-known dist",
     "dev": "parcel src/*.html --open",
     "start": "npm run build && npm run dev",
     "test": "echo \"Error: no test specified\" && exit 1"
