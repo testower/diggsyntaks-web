@@ -1,4 +1,4 @@
 window.onload = () => {
     let date = new Date();
-    document.getElementById("copyright").innerHTML = "© Baito " + date.getFullYear()
+    document.getElementById("copyright").innerHTML = "© Digg Syntaks " + date.getFullYear()
 }
